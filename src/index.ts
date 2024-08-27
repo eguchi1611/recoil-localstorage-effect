@@ -1,2 +1,2 @@
-export * from "./RecoilAsyncStorageProvider";
-export * from "./asyncStorageEffect";
+export * from "./LocalStorageEffectProvider";
+export * from "./localStorageEffect";

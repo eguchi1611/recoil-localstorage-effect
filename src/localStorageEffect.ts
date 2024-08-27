@@ -1,6 +1,6 @@
 import type { AtomEffect } from "recoil";
 
-export const asyncStorageEffect =
+export const localStorageEffect =
   <T>(key: string): AtomEffect<T> =>
   ({ setSelf, onSet, trigger }) => {
     if (typeof window === "undefined") return;

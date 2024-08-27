@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export function RecoilAsyncStorageProvider({
+export function LocalStorageEffectProvider({
   children,
 }: {
   children?: React.ReactNode;

@@ -1,5 +1,5 @@
 {
-  "name": "recoil-async-storage",
+  "name": "recoil-localstorage-effect",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
