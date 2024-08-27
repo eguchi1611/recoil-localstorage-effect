@@ -1,6 +1,6 @@
 {
   "name": "recoil-localstorage-effect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Recoil effect to persist state to localStorage with Static Site Generation.",
   "type": "module",
   "main": "dist/index.js",
