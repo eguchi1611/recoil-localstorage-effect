@@ -1,16 +1,31 @@
 {
   "name": "recoil-localstorage-effect",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A Recoil effect to persist state to localStorage with Static Site Generation.",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build && tsc -b",
     "lint": "eslint ."
   },
-  "files": [
-    "dist"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eguchi1611/recoil-localstorage-effect.git"
+  },
+  "keywords": [
+    "recoil",
+    "react"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "author": "Keita Ito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eguchi1611/recoil-localstorage-effect/issues"
+  },
+  "homepage": "https://github.com/eguchi1611/recoil-localstorage-effect#readme",
   "dependencies": {
     "react-dom": "^18.3.1",
     "recoil": "^0.7.7"
