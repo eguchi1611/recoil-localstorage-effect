@@ -26,10 +26,6 @@
     "url": "https://github.com/eguchi1611/recoil-localstorage-effect/issues"
   },
   "homepage": "https://github.com/eguchi1611/recoil-localstorage-effect#readme",
-  "dependencies": {
-    "react-dom": "^18.3.1",
-    "recoil": "^0.7.7"
-  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/node": "^22.5.0",
@@ -46,6 +42,8 @@
     "vite": "^5.4.1"
   },
   "peerDependencies": {
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recoil": "^0.7.7"
   }
 }
